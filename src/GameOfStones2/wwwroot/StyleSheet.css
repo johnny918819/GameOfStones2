@@ -1,0 +1,40 @@
+﻿body {
+    background-image: url("http://eskipaper.com/images/cool-rocks-wallpaper-1.jpg");
+}
+#title {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+}
+
+#userInputArea {
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+}
+#table{
+    font-size: 2rem;
+    padding: 25px;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+#btn {
+    font-size:1.5rem;
+    color: white;
+    background-color: black;
+    font-family: times;
+    border-color: white;
+}
+#btn:hover {
+    color: black;
+    background-color:white;
+    border-color: black;
+}
+#inputNumber{
+    width: 45px;
+}

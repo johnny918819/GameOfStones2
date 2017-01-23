@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Game of Stones!</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    
+    <center>
+        <p id="title">Welcome to the Game of Stones!</p>
+        <table id="table" border="1">
+            <tr>
+                <th>Row A</th><th>Row B</th><th>Row C</th>
+            </tr>
+            <tr>
+                <td id="a1" />
+                <td id="b1" />
+                <td id="c1" />
+            </tr>
+             <tr>
+                <td id="a2" />
+                <td id="b2" />
+                <td id="c2" />
+            </tr>
+             <tr>
+                <td id="a3" />
+                <td id="b3" />
+                <td id="c3" />
+            </tr>
+             <tr>
+                <td id="a4" />
+                <td id="b4" />
+                <td id="c4" />
+             </tr>
+             <tr>
+                <td id="a5" />
+                <td id="b5" />
+                <td id="c5" />
+            </tr>
+        </table>
+        <br />
+ 
+        <fieldset id="userInputArea">
+            <label>
+                Select a row to remove from:
+                <select id="inputRow">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </label>
+            <br />
+            <label>
+                Input a number to be removed: <input type="number" min="0" max="5" id="inputNumber" >
+            </label>
+            <br />
+            <button id="btn">Remove</button>
+        </fieldset>
+    </center>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
